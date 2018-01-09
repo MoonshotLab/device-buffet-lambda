@@ -1,0 +1,19 @@
+{
+  "intents": [
+    {
+      "intent": "StartDemoVideoIntent"
+    },
+    {
+      "intent": "AMAZON.PauseIntent"
+    },
+    {
+      "intent": "AMAZON.ResumeIntent"
+    },
+    {
+      "intent": "AMAZON.StartOverIntent"
+    },
+    {
+      "intent": "AMAZON.StopIntent"
+    }
+  ]
+}
