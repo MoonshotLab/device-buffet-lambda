@@ -4,7 +4,7 @@ const fetch = require('node-fetch');
 const baseUrl = 'https://device-buffet.moonshot.cloud/video/';
 const playPath = baseUrl + 'play';
 const pausePath = baseUrl + 'pause';
-const stopPath = baseUrl + 'pause';
+const stopPath = baseUrl + 'stop';
 console.log(playPath, pausePath, stopPath);
 
 const handlers = {
