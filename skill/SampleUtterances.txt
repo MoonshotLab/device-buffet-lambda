@@ -1,6 +1,27 @@
+StartDemoVideoIntent	demo
+StartDemoVideoIntent	demo video
 StartDemoVideoIntent	play the demo
 StartDemoVideoIntent	play the video
 StartDemoVideoIntent	play demo video
-StartDemoVideoIntent	demo video
 StartDemoVideoIntent	play demo
 StartDemoVideoIntent	play moonshot video
+StartDemoVideoIntent	start the demo
+StartDemoVideoIntent	start the video
+StartDemoVideoIntent	start demo video
+StartDemoVideoIntent	start demo
+StartDemoVideoIntent	start moonshot video
+PauseDemoVideoIntent	pause the demo
+PauseDemoVideoIntent	pause the video
+PauseDemoVideoIntent	pause demo video
+PauseDemoVideoIntent	pause demo
+PauseDemoVideoIntent	pause moonshot video
+StopDemoVideoIntent	stop the demo
+StopDemoVideoIntent	stop the video
+StopDemoVideoIntent	stop demo video
+StopDemoVideoIntent	stop demo
+StopDemoVideoIntent	stop moonshot video
+RestartDemoVideoIntent	restart the demo
+RestartDemoVideoIntent	restart the video
+RestartDemoVideoIntent	restart demo video
+RestartDemoVideoIntent	restart demo
+RestartDemoVideoIntent	restart moonshot video

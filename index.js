@@ -36,7 +36,7 @@ const handlers = {
       });
   },
 
-  'AMAZON.PauseIntent': function() {
+  PauseDemoVideoIntent: function() {
     fetch(pausePath)
       .then(res => {
         console.log(res);
@@ -52,23 +52,7 @@ const handlers = {
       });
   },
 
-  'AMAZON.ResumeIntent': function() {
-    fetch(playPath)
-      .then(res => {
-        console.log(res);
-        this.response.speak(`Resuming video.`);
-        this.emit(':responseReady');
-      })
-      .catch(e => {
-        console.log(e);
-        this.response.speak(
-          `Unfortunately, something went wrong. Try again later.`
-        );
-        this.emit(':responseReady');
-      });
-  },
-
-  'AMAZON.StartOverIntent': function() {
+  RestartDemoVideoIntent: function() {
     fetch(stopPath)
       .then(res => {
         return fetch(playPath);
@@ -87,7 +71,7 @@ const handlers = {
       });
   },
 
-  'AMAZON.StopIntent': function() {
+  StopDemoVideoIntent: function() {
     fetch(stopPath)
       .then(res => {
         console.log(res);

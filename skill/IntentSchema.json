@@ -4,16 +4,13 @@
       "intent": "StartDemoVideoIntent"
     },
     {
-      "intent": "AMAZON.PauseIntent"
+      "intent": "StopDemoVideoIntent"
     },
     {
-      "intent": "AMAZON.ResumeIntent"
+      "intent": "PauseDemoVideoIntent"
     },
     {
-      "intent": "AMAZON.StartOverIntent"
-    },
-    {
-      "intent": "AMAZON.StopIntent"
+      "intent": "RestartDemoVideoIntent"
     }
   ]
 }
