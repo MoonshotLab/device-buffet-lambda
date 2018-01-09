@@ -1,7 +1,7 @@
 const Alexa = require('alexa-sdk');
 const fetch = require('node-fetch');
 
-const baseUrl = 'https://device-buffet.moonshot.cloud/video';
+const baseUrl = 'https://device-buffet.moonshot.cloud/video/';
 const playPath = baseUrl + 'play';
 const pausePath = baseUrl + 'pause';
 const stopPath = baseUrl + 'pause';
