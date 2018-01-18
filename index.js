@@ -9,10 +9,7 @@ console.log(playPath, pausePath, stopPath);
 
 const handlers = {
   LaunchRequest: function() {
-    this.emit(
-      ':ask',
-      'Look up on the TV in front of you and then tell me to play the video'
-    );
+    this.emit('StartDemoVideoIntent');
   },
 
   Unhandled: function() {
@@ -24,7 +21,7 @@ const handlers = {
     fetch(playPath)
       .then(res => {
         console.log(res);
-        this.response.speak(`Playing video.`);
+        this.response.speak(`Ok, here's the video.`);
         this.emit(':responseReady');
       })
       .catch(e => {
