@@ -1,6 +1,6 @@
-## Device Buffet
+## Device Buffet Lambda
 
-Lambda function for Device Buffet Alexa skill. Makes http requests to https://device-buffet.moonshot.cloud/ to control demo video.
+AWS Lambda function for Device Buffet Alexa skill. Makes http requests to https://device-buffet.moonshot.cloud/ to control demo video.
 
 ### Notes
 * `npm run deploy` zips the project and pushes it to Lambda. `aws` must be configured correctly for this to work.
