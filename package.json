@@ -4,7 +4,10 @@
   "main": "index.js",
   "license": "MIT",
   "scripts": {
-    "zip": "node zip.js"
+    "zip": "node zip.js",
+    "update":
+      "aws lambda update-function-code --function-name casebot-test --zip fileb://archive.zip",
+    "deploy": "npm run zip && npm run update"
   },
   "dependencies": {
     "alexa-sdk": "^1.0.24",
@@ -12,5 +15,8 @@
     "fs-extra": "^5.0.0",
     "node-fetch": "^1.7.3",
     "zip-folder": "^1.0.0"
+  },
+  "devDependencies": {
+    "aws": "^0.0.3-2"
   }
 }
